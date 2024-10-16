@@ -1,13 +1,59 @@
-body {
+*{
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+.carousel{
+  width: 100%;
+  height: 70vh;
+  overflow: hidden;
+}
+.moviedetailcontainer{
+  padding: 0px 70px 70px 70px;
+  height: 100vh;
+}
+.cart:hover{
+box-shadow: 0px 0px 10px 1px black;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.dtailimg{
+ width: 100%;
+ height: 70%;
+}
+.innerdetailsdiv{
+height: 99vh;
+
+}
+.trailerdiv{
+  position: relative;
+  bottom: 101vh;
+  height: 71vh;
+}
+#trailerbtn{
+  width: 150px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: transparent;
+  position: relative;
+  bottom: 130px;
+  left: 85%;
+  background-color: red;
+  color: white;
+  border: none;
+  font-weight: bolder;
+}
+.fotter{
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  padding: 20px;
+  align-items: center;
+  width: 100%;
+  background-color: rgba(0, 68, 255, 0.81);
+  color: white;
+  position: relative;
+  margin-top: 20px;
+  bottom: 0;
+  font-size: 17px;
+  box-shadow: 0px 0px 1px 0px black;
 }
